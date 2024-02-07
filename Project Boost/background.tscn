@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2ecwmbyw27nk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w4e3a"]
+albedo_color = Color(1, 0.494118, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2sqa3"]
+
+[node name="BackgroundSun" type="CSGSphere3D"]
+transform = Transform3D(1, 0, 0, 0, -0.936746, 0.350011, 0, -0.350011, -0.936746, 0, 6.51587, -35.149)
+material_override = SubResource("StandardMaterial3D_w4e3a")
+radius = 9.116
+
+[node name="BackgroundStar" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.241, -4.23105, -11.3237)
+material_override = SubResource("StandardMaterial3D_2sqa3")
+radius = 1.17027
+
+[node name="BackgroundStar1" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2506, -3.51837, -9.41632)
+material_override = SubResource("StandardMaterial3D_2sqa3")
+radius = 1.17027
+
+[node name="BackgroundStar2" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3637, -1.17158, 11.8511)
+material_override = SubResource("StandardMaterial3D_2sqa3")
+radius = 1.17027
+
+[node name="BackgroundStar3" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.6297, 5.39676, 27.6793)
+material_override = SubResource("StandardMaterial3D_2sqa3")
+radius = 1.17027
+
+[node name="BackgroundStar4" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.6615, -5.58289, 4.47668)
+material_override = SubResource("StandardMaterial3D_2sqa3")
+radius = 1.17027
